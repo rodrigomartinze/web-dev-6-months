@@ -1,0 +1,27 @@
+#title {
+    text-align: center;
+}
+
+#Data {
+    background-color: black;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+    margin: auto;
+    width: 80vw;
+}
+
+.width-60 {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
