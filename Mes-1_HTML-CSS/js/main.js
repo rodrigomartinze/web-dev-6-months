@@ -1,8 +1,10 @@
 
 
-let textBox = document.getElementById("Data");
+
 
 function sendData(){
+
+    let textBox = document.getElementById("Data");
 
     const age = document.getElementById("age").value ;
     const name = document.getElementById("name").value ;
