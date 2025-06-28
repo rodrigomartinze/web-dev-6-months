@@ -1,11 +1,12 @@
 
 
-let textBox = document.getElementById("Data")
+let textBox = document.getElementById("Data");
 
-function addText(){
+function sendData(){
 
-    const age = document.getElementById("age")
-    const name = document.getElementById("name")
-    textBox.replaceWith(``)
+    const age = document.getElementById("age").value ;
+    const name = document.getElementById("name").value ;
+    textBox.innerHTML = "";
+    textBox.innerText = `Hi ${name}, I think your are ${age} years old`;
 }
      
