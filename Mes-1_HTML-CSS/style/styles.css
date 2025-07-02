@@ -1,4 +1,4 @@
-#title {
+/* #title {
     text-align: center;
 }
 
@@ -51,4 +51,14 @@
         0 0 50px #03e9f4,
         0 0 200px #03e9f4;
     transition: 1s;
+} */
+
+body {
+    background-color: rgb(17, 88, 146);
+}
+
+.imc-form {
+    display: block;
+    margin-bottom: 8px;
+    padding: 10px;
 }
